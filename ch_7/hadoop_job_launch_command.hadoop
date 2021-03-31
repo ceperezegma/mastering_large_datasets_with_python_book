@@ -1,1 +1,0 @@
-$HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar -input /input_data -output /output_data -file ./wc_mapper_new.py -mapper ./wc_mapper_new.py -file ./wc_reducer_new.py -reducer ./wc_reducer_new.py
